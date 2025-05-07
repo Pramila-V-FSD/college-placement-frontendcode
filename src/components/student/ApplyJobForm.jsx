@@ -25,7 +25,7 @@ const ApplyJobForm = () => {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        `http://localhost:5000/api/applications/${jobId}/apply`,
+        `https://clg-placementproject-backend-1.onrender.com/api/applications/${jobId}/apply`,
         formData,
         {
           headers: {
