@@ -14,7 +14,7 @@ const AdminDashboard = () => {
     const fetchData = async () => {
       try {
         const [statsRes, drivesRes] = await Promise.all([
-          axios.get('http://localhost:5000/api/admin/stats', {
+          axios.get('https://clg-placementproject-backend-1.onrender.com/api/admin/stats', {
             headers: { Authorization: `Bearer ${token}` },
           }),
           getPlacementDrives(token)
