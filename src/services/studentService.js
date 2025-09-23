@@ -1,7 +1,7 @@
 // src/services/studentService.js
 import axios from 'axios';
 
-const API_BASE = 'https://clg-placementproject-backend-1.onrender.com/api';
+const API_BASE = 'https://clg-placementproject-backend-3.onrender.com//api';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');
