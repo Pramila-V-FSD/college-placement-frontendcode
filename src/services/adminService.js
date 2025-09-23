@@ -1,7 +1,7 @@
 // src/services/adminService.js
 import axios from 'axios';
 
-const API_URL = 'https://clg-placementproject-backend-1.onrender.com/api';
+const API_URL = 'https://clg-placementproject-backend-3.onrender.com//api';
 
 // Create Placement Drive
 export const createPlacementDrive = async (driveData, token) => {
