@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'https://clg-placementproject-backend-1.onrender.com/api',
+  baseURL: 'https://clg-placementproject-backend-3.onrender.com//api',
   timeout: 10000,
 });
 
