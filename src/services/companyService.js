@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://clg-placementproject-backend-1.onrender.com/api';
+const API_URL = 'https://clg-placementproject-backend-3.onrender.com//api';
 
 // Get auth headers
 const getAuthConfig = (token) => {
